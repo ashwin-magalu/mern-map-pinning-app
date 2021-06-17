@@ -87,6 +87,7 @@ function App() {
         height="100%"
         transitionDuration="200"
         /* mapStyle="mapbox://styles/safak/cknndpyfq268f17p53nmpwira" */
+        /* mapStyle="mapbox://styles/mapbox/streets-v11" */
         mapStyle="mapbox://styles/ashwin-ma/ckq0f5zfm0czg18k0rx0b6c42"
         onViewportChange={(viewport) => setViewport(viewport)}
         onDblClick={currentUsername && handleAddClick}
