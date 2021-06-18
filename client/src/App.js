@@ -13,6 +13,7 @@ function App() {
   const [currentUsername, setCurrentUsername] = useState(
     myStorage.getItem("user")
   );
+  document.cookie = "hi=ashwin; expires=Sat, 19 Jun 2021 12:00:00 UTC";
   const [pins, setPins] = useState([]);
   const [currentPlaceId, setCurrentPlaceId] = useState(null);
   const [newPlace, setNewPlace] = useState(null);
